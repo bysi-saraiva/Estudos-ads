@@ -12,7 +12,7 @@ int main() {
 #include <iostream>
 using namespace std;
 
-int main() {
+int main () {
     int idade;
 
     cout << "Qual é sua idade? ";
@@ -23,6 +23,19 @@ int main() {
     } else {
         cout << "Menor de idade";
     }
+
+    return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+  
+int main() {
+    int idade;
+    cout<<"Qual a sua idade?";
+    cin>>idade;
+    cout<<"Sua idade é:"<<idade<<endl;
 
     return 0;
 }
