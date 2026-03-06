@@ -15,3 +15,23 @@ using namespace std;
 
       return 0;
     }
+
+    #include <iostream>
+using namespace std;
+
+int main() {
+
+    int idade;
+
+    cout << "Digite sua idade: ";
+    cin >> idade;
+
+    if (idade >= 16) {
+        cout << "Pode votar";
+    } 
+    else {
+        cout << "Nao pode votar";
+    }
+
+    return 0;
+}
