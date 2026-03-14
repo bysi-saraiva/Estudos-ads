@@ -51,6 +51,7 @@ else {
     cout << "Reprovação";
 }
 
+
 #include <iostream>
 using namespace std;
 
@@ -75,29 +76,3 @@ int main() {
     return 0;
 }
 
-#include <iostream>
-using namespace std;
-
-int main() {
-
-    string nome;
-    float nota;
-
-    cout << "Digite seu nome: ";
-    cin >> nome;
-
-    cout << "Digite sua nota: ";
-    cin >> nota;
-
-    if (nota >= 7) {
-        cout << nome << ", voce foi Aprovado";
-    }
-    else if (nota >= 5 && nota < 7) {
-        cout << nome << ", voce esta em Recuperacao";
-    }
-    else {
-        cout << nome << ", voce foi Reprovado";
-    }
-
-    return 0;
-}
