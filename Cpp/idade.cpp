@@ -35,3 +35,18 @@ int main() {
 
     return 0;
 }
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int nome
+    float numero
+
+    cout>> "qual o seu nome?" endl;
+    cin<< nome
+
+    cout>> "Digite seu número de telefone:"
+    cin<< numero
+
+    
