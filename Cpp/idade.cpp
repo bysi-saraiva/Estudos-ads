@@ -46,7 +46,12 @@ int main(){
     cout>> "qual o seu nome?" endl;
     cin<< nome
 
-    cout>> "Digite seu número de telefone:"
+    cout>> "Digite seu número de telefone:" endl;
     cin<< numero
 
-    
+    cout>>"cadastro realizado" endl;
+
+    return 0;
+
+}
+
