@@ -49,7 +49,7 @@ int main(){
     cout>> "Digite seu número de telefone:" endl;
     cin<< numero
 
-    cout>>"cadastro realizado" endl;
+    cout>>"envio realizado" endl;
 
     return 0;
 
