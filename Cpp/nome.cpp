@@ -49,9 +49,11 @@ else if (nota >= 5 && nota < 7) {
 } 
 else {
     cout << "Reprovação";
+
+    return 0;
 }
-
-
+     }
+     }
 #include <iostream>
 using namespace std;
 
