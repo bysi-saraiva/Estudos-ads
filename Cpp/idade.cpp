@@ -53,5 +53,27 @@ int main(){
 
     return 0;
 
-}
+} 
 
+#include <iostroeam>
+using namespace std;
+
+      int main () {
+ int nome;
+ float idade;
+ float numero;
+
+ cout<<"Digite seu nome:"<< endl;
+ cin>>nome
+
+ cout<<"Digite sua idade:"<<endl;
+ cin>>idade
+
+ cout<<"Digite seu nome de telefone:"<< endl;
+ cin>>numero
+
+ cout<<"CADASTRO REALIZADO"<< endl;
+
+ return 0;
+
+      }
