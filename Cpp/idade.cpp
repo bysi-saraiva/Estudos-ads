@@ -1,4 +1,4 @@
-#include <iostream>
+git #include <iostream>
 using namespace std;
 
    int main () {
@@ -40,8 +40,8 @@ int main() {
 using namespace std;
 
 int main(){
-    int nome
-    float numero
+    int nome;
+    float numero;
 
     cout>> "qual o seu nome?" endl;
     cin<< nome
@@ -72,7 +72,9 @@ using namespace std;
  cout<<"Digite seu nome de telefone:"<< endl;
  cin>>numero
 
- cout<<"CADASTRO REALIZADO"<< endl;
+ cout<< nome <<"seu cadrastro foi realizado com sucesso!!!"<< endl;
+
+ 
 
  return 0;
 
