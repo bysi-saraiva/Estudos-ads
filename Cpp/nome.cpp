@@ -78,3 +78,31 @@ int main() {
     return 0;
 }
 
+#include <iostream>
+using namespace std;
+
+int main() {
+    string usuario;
+    float temperatura;
+
+    cout << "Digite seu nome: ";
+    cin >> usuario;
+
+    cout << "Digite a temperatura atual: ";
+    cin >> temperatura;
+
+    cout << usuario << ", o clima esta: ";
+
+    if (temperatura < 15) {
+        cout << "Frio";
+    }
+    else if (temperatura <= 25) {
+        cout << "Agradavel";
+    }
+    else {
+        cout << "Calor";
+    }
+
+    return 0;
+}
+
